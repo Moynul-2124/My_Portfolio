@@ -1,0 +1,132 @@
+{
+    "posts": [
+        {
+            "id": "1",
+            "title": "Moynul Islam — BD-based MERN STACK Web Developer helping turn ideas into products",
+            "views": "Who am I?",
+            "image": "https://cdn.wallpapersafari.com/75/94/8kGzx6.jpg"
+        }
+    ],
+    "comments": [
+        {
+            "id": "c1",
+            "text": "Strong intro. Clear identity. Location adds credibility. Experience shows trend awareness. User-focused. Agile mindset.",
+            "await": "I am a freelancer based in the Bangladesh and i have been trying to build noteworthy Frontend websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.",
+            "postId": "1"
+        }
+    ],
+    "profile": {
+        "id": "p1",
+        "name": "Moynul Islam",
+        "email": "tanmoyzodiac@gmail.com",
+        "age": 38,
+        "from": "Gopalganj, Dhaka"
+    },
+    "title": {
+        "id": "t1",
+        "heading": "Services I Offer to My Clients",
+        "image": "https://example.com/services-banner.jpg"
+    },
+    "services": [
+        {
+            "id": "s1",
+            "name": "Design Trends",
+            "description": "Make unique design for your satisfaction providing full optimization",
+            "icon": "https://copilot.microsoft.com/th/id/BCO.589bda02-6964-46a1-9f7c-564ccabbfbca.png"
+        },
+        {
+            "id": "s2",
+            "name": "PSD Design",
+            "description": "Fulfill minimum requirement for daily day purpose",
+            "icon": "https://copilot.microsoft.com/th/id/BCO.6ba511d4-6530-4ac1-be8b-c6bbba4a5cc9.png"
+        },
+        {
+            "id": "s3",
+            "name": "Customer Support",
+            "description": "Availability for every perspective & full time support",
+            "icon": "https://copilot.microsoft.com/th/id/BCO.538a2d3e-3e7d-44f7-b83e-85342aa798bc.png"
+        },
+        {
+            "id": "s4",
+            "name": "Web Development",
+            "description": "Specialized focusing on branding new enterprenuership",
+            "icon": "https://copilot.microsoft.com/th/id/BCO.30e5c966-9942-4214-a247-87661e9aa8c3.png"
+        },
+        {
+            "id": "s5",
+            "name": "Fully Responsive",
+            "description": "Updating with new innovation each day abroad",
+            "icon": "https://copilot.microsoft.com/th/id/BCO.dc020db4-989a-4553-8727-a8d76b5ecced.png"
+        },
+        {
+            "id": "s6",
+            "name": "Branding",
+            "description": "Attitude towards new goal for tomorrows incentive",
+            "icon": "https://copilot.microsoft.com/th/id/BCO.6ba511d4-6530-4ac1-be8b-c6bbba4a5cc9.png"
+        }
+    ],
+    "testimonials": {
+        "sectionTitle": "What My Clients Think About Me",
+        "comments": [
+            {
+                "id": "c1",
+                "name": "Sumaiya Nasir",
+                "image": "https://example.com/testimonials/alice.jpg",
+                "text": "Emma's designs elevated our brand. She's intuitive and fast!"
+            },
+            {
+                "id": "c2",
+                "name": "Shifoya Tusty",
+                "image": "https://example.com/testimonials/david.jpg",
+                "text": "Reliable, creative, and always delivers on time. Highly recommended."
+            },
+            {
+                "id": "c3",
+                "name": "Orpa Jahan",
+                "image": "https://example.com/testimonials/sophia.jpg",
+                "text": "Her UX work helped us increase conversions by 30%. Brilliant!"
+            }
+        ]
+    },
+    "plans": {
+        "sectionTitle": "Get Started With My Services",
+        "plans": [
+            {
+                "id": "p1",
+                "name": "Standard",
+                "price": "$19/month",
+                "features": [
+                    "Mobile App Design",
+                    "Responsive Design",
+                    "Database Development",
+                    "Web Design",
+                    "24/7 Support"
+                ]
+            },
+            {
+                "id": "p2",
+                "name": "Professional",
+                "price": "$29/month",
+                "features": [
+                    "Mobile App Design",
+                    "Responsive Design",
+                    "Database Development",
+                    "Web Design",
+                    "24/7 Support"
+                ]
+            },
+            {
+                "id": "p3",
+                "name": "Business",
+                "price": "$39/month",
+                "features": [
+                    "Mobile App Design",
+                    "Responsive Design",
+                    "Database Development",
+                    "Web Design",
+                    "24/7 Support"
+                ]
+            }
+        ]
+    }
+}
