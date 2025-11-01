@@ -8,8 +8,8 @@ import heroTextReducer from './counter/heroTextSlice'
 import languageReducer from "./counter/langugeSlice"
 import curtainReducer from "./counter/curtainSlice"
 import cvReducer from "./counter/cvSlice"
-
-
+import testimonialReducer from "./counter/testimonialSlice"
+import pageTransitionReducer from "./counter/pageTransitionSlice"
 
 
 export const store = configureStore({
@@ -20,5 +20,7 @@ export const store = configureStore({
         language: languageReducer,  
         curtain: curtainReducer,
         cv: cvReducer,
+        testimonial: testimonialReducer,
+        pageTransition: pageTransitionReducer,
     },
 })

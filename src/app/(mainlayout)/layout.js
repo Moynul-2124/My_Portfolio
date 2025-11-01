@@ -24,12 +24,16 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable}  antialiased`}
       >
-        <Providers>
+       <div className="font-gothic">
+
+         <Providers>
           
           <Header></Header>
           <Curtain></Curtain>
           {children}
         </Providers>
+
+       </div>
       </body>
     </html>
   );

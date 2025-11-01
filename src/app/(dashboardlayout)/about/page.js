@@ -5,6 +5,8 @@ import Title from '@/app/(mainlayout)/H&F/Title';
 import React from 'react';
 import HeroAbout from './Componenets/Fixed/HeroAbout';
 import ServicesAbout from './Componenets/Fixed/ServicesAbout';
+import TestiAbout from './Componenets/Fixed/TestiAbout';
+import ProAbout from './Componenets/Fixed/ProAbout';
 
 const page = () => {
     return (
@@ -37,14 +39,29 @@ const page = () => {
 
 
 
-                    <ServicesAbout></ServicesAbout>
+            <ServicesAbout></ServicesAbout>
+
+
+            <div> <div className='flex justify-center container mx-auto pt-14'> <Title gud="What my clients think about me" voda="Testimonials"></Title></div>
+
+
+
+                <TestiAbout></TestiAbout></div>
 
 
 
 
 
-efdsfsdfsdffsdfdfsdfs   
+            <div className='py-8 text=start flex container mx-auto'>
 
+
+
+                <Title gud="Get started with my services" voda="Choose a Plan"></Title>
+
+            </div>
+
+
+                <ProAbout></ProAbout>
 
 
 

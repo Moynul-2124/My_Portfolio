@@ -35,7 +35,7 @@ const HeroAbout = async () => {
 
 
 
-                                    <img className='h-[637px] rounded-r-[79px] rounded-t-[64px] rounded-l-[68px] opacity-260 z-50 w-[470px] mx-auto' src={nunu.image} alt="Myself" />
+                                    <img width={400} className=' rounded-r-[79px]   opacity-260 z-50  mx-auto' src={nunu.image} alt="Myself" />
 
                                     <div className='flex flex-col   gap-6 '>
 
@@ -47,7 +47,7 @@ const HeroAbout = async () => {
 
                                         <div>
                                             <h1 className="text-[31px] tracking-wide opacity-90 font-extrabold">{nunu.title}</h1>
-                                            <p className="py-6">
+                                            <div className="py-6">
                                                 {biral.map((gudu) => (
 
 
@@ -60,7 +60,7 @@ const HeroAbout = async () => {
 
 
                                                 ))}
-                                            </p>
+                                            </div>
 
                                         </div>
 

@@ -3,9 +3,10 @@
 @plugin "daisyui";
 
 
-body {
+ body{
 
   font-family: "Special Gothic", sans-serif;
+  
 
 
   .typewriter {
@@ -72,20 +73,43 @@ body {
   }
 
   @keyframes rotateLine {
-  0% {
-    transform: rotateZ(0deg);
+    0% {
+      transform: rotateZ(0deg);
+    }
+
+    50% {
+      transform: rotateZ(180deg);
+    }
+
+    100% {
+      transform: rotateZ(0deg);
+    }
   }
-  50% {
-    transform: rotateZ(180deg);
+
+  .rotate-line {
+    animation: rotateLine 2s ease-in-out infinite;
+    transform-origin: center;
+
   }
-  100% {
-    transform: rotateZ(0deg);
-  }
+
+  @keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(20px); }
 }
 
-.rotate-line {
-  animation: rotateLine 2s ease-in-out infinite;
-  transform-origin: center;
-  
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease-in forwards;
 }
+}
+
+
+
+@layer utilities {
+  .font-gothic {
+    font-family: "Special Gothic", sans-serif;
+  }
+
+  .font-noto {
+    font-family: "Noto Sans", sans-serif;
+  }
 }

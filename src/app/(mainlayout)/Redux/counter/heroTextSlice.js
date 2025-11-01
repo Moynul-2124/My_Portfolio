@@ -13,6 +13,7 @@ const heroTextSlice = createSlice({
         index: 0,
         texts,
     },
+    
     reducers: {
         toggleText: (state) => {
             state.index = (state.index + 1) % state.texts.length;

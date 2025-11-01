@@ -1,17 +1,23 @@
 
 
 
-
 import {
-  Special_Gothic
+  Noto_Sans
+
 } from "next/font/google";
 import "../globals.css";
 import Providers from "../(mainlayout)/provider";
+
 import Curtain from "./about/Componenets/Shared/Curtain";
 import Header from "./about/Componenets/Fixed/Header";
 
 
-const geistSans = Special_Gothic
+
+
+
+
+const geistSans = Noto_Sans
+
   ({
     weight: ["400", "500", "600", "700"]
   });
@@ -29,12 +35,20 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable}  antialiased`}
       >
-        <Providers>
-          
-          <Header></Header>
-          <Curtain></Curtain>
-          {children}
-        </Providers>
+        <div className="font-noto">
+
+          <Providers>
+
+            <Header></Header>
+
+            <Curtain></Curtain>
+
+            {children}
+
+
+
+          </Providers>
+        </div>
       </body>
     </html>
   );
